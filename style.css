@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background: rgb(0, 6, 32);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-weight: 300;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 30px;
+}
+.container-pelix iframe{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+}
+.container-recomendaciones{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    row-gap: 50px;
+}
+.cars{
+    height: 350px;
+}
+img{
+    border-radius: 10px;
+}
+.container-ver-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container-ver-img .ver-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.container-boton-trailer{
+    width: 100%;
+    height: 40px;
+    background: red;
+    display: flex;
+    padding: 10px;
+   
+    border-radius: 10px;
+    align-items: center;
+}
+span{
+    background: none;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.568);
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+.container-descripcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.container-descripcion span{
+    font-size: 1rem; color: rgba(255, 255, 255, 0.637);
+}
+p{
+    color: rgba(255, 255, 255, 0.445);
+}
